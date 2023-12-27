@@ -1,0 +1,7 @@
+create database milktea_shop;
+
+create table milktea2 (milktea_name varchar(255),favor varchar(255),price int,information varchar(500),customer_name varchar(255),total_amount int,stocks int);
+
+create table purchases (customer_name varchar(255),total_amount int,customer cash int,user change int,date_added timestamp,choosen varchar(500));
+
+create table report (messages varchar(500),reply varchar(255),data_added timestamp);
